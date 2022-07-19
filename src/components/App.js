@@ -2,6 +2,7 @@
 import './../assets/css/App.css';
 import baseUrl from './../config/index';
 import axios from 'axios';
+import Layout from './layout/Layout';
 
 function App() {
 
@@ -9,9 +10,14 @@ function App() {
     console.log(books);
   })
   return (
-    <div className="App">
-      Hello
+    <div className='App'>
+      <Layout/>
     </div>
+    // <Layout>
+    //   <div>
+    //     Hello
+    //   </div>
+    // </Layout>
   );
 }
 
