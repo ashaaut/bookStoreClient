@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should return app component 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="layout-container"
+    >
+      <div
+        class="header-container"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="title"
+          >
+            Book Store
+          </div>
+        </div>
+      </div>
+      <div
+        class="book-container"
+      >
+        hii
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
