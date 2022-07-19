@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import './../../assets/css/Layout.css'
+import BookContainer from "../book/BookContainer";
 
 const Layout=()=>{
     return(
@@ -9,7 +10,7 @@ const Layout=()=>{
                 <Header/>
             </div>
             <div className="book-container">
-                hii
+                <BookContainer/>
             </div>
         </div>
     )
